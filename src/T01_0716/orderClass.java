@@ -2,7 +2,7 @@ package T01_0716;
 
 public class orderClass{
 		int tableNumber;  
-		String orderedMenu;  
+		String orderedMenu; 
 		int menuPrice;
 		int orderedNumber;  
 	
