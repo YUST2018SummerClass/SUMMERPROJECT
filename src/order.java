@@ -54,7 +54,7 @@ class 식당{
 //		this.orderednum = orderednum;
 //	}	
 	void 출력(int pc) throws IOException {
-		FileReader fr = new FileReader("c:/test/test.txt");
+		FileReader fr = new FileReader("c:/test/order.txt");
 		BufferedReader br = new BufferedReader(fr);
 		String[] menu = null;
 		String line = null;
@@ -85,7 +85,7 @@ public class order {
 //		om3.setTablenum(0);
 //		om4.setTablenum(0);
 //		om5.setTablenum(0);
-//		System.out.println("목록 선택 1. 테이블, 2. 음식이름 3. 가격, 4. 수량");
+		System.out.println("목록 선택 1. 테이블, 2. 음식이름 3. 가격, 4. 수량");
 		pc = sc.nextInt();
 		om.출력(pc);
 	}
