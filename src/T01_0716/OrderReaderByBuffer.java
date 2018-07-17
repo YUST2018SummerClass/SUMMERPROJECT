@@ -16,7 +16,7 @@ public class OrderReaderByBuffer {
 		// use List to store many orders  
 		List<orderClass> orderList = new ArrayList<>();  
 		/*  
-		 * Read File data   
+		 * Read File data  
 		 * and store each field seperately using the Order Class  
 		 */  
 		FileReader fileReader = null;  

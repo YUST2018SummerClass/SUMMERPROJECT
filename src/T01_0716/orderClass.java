@@ -4,7 +4,7 @@ public class orderClass{
 		int tableNumber;  
 		String orderedMenu;
 		int menuPrice;
-		int orderedNumber;  
+		int orderedNumber; 
 	
 		public int getTableNumber() {  
 			return tableNumber;  
