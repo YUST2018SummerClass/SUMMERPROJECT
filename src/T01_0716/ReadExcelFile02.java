@@ -32,7 +32,7 @@ public class ReadExcelFile02 {
 
 		// Order class lists 
 		List<Number> numList = new ArrayList<>();
-
+		
 		// Initial needed values
 		XSSFWorkbook inputWorkbook = null;
 		XSSFRow incurRow;

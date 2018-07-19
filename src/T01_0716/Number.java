@@ -11,7 +11,7 @@ public class Number {
 	public void setNumber(int Number) {  
 		this.Number = Number; 
 	}
-
+	
 	public String getName() {  
 		return Name;  
 	}
